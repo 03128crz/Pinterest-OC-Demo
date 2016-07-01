@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RSk-2G-vls">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="h8N-9L-pSL" customClass="PinterestLayout"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnnotatedPhotoCell" id="rii-Zv-LLU" customClass="AnnotatedPhotoCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7c-tB-J2M">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="f3p-RC-7Az"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zG-Ye-08Z">
+                                                    <rect key="frame" x="4" y="124" width="172" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="euH-Zq-nmo"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU2-do-WHH">
+                                                    <rect key="frame" x="4" y="141" width="172" height="12"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="0.047058823529411764" green="0.36078431372549019" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="4zG-Ye-08Z" firstAttribute="top" secondItem="g7c-tB-J2M" secondAttribute="bottom" constant="4" id="Fj1-HT-JfU"/>
+                                            <constraint firstItem="g7c-tB-J2M" firstAttribute="leading" secondItem="rii-Zv-LLU" secondAttribute="leading" id="OPP-G1-9zr"/>
+                                            <constraint firstItem="g7c-tB-J2M" firstAttribute="top" secondItem="rii-Zv-LLU" secondAttribute="top" id="Ocb-UL-nox"/>
+                                            <constraint firstAttribute="trailing" secondItem="g7c-tB-J2M" secondAttribute="trailing" id="Wyx-ac-wtv"/>
+                                            <constraint firstAttribute="trailing" secondItem="4zG-Ye-08Z" secondAttribute="trailing" constant="4" id="Xkh-jW-sgh"/>
+                                            <constraint firstItem="4zG-Ye-08Z" firstAttribute="leading" secondItem="rii-Zv-LLU" secondAttribute="leading" constant="4" id="pSv-K2-ayc"/>
+                                            <constraint firstItem="pU2-do-WHH" firstAttribute="leading" secondItem="rii-Zv-LLU" secondAttribute="leading" constant="4" id="sJn-3M-Ev9"/>
+                                            <constraint firstItem="pU2-do-WHH" firstAttribute="top" secondItem="4zG-Ye-08Z" secondAttribute="bottom" id="t4X-bS-2Om"/>
+                                            <constraint firstAttribute="trailing" secondItem="pU2-do-WHH" secondAttribute="trailing" constant="4" id="yr2-5K-JZn"/>
+                                        </constraints>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="captionLabel" destination="4zG-Ye-08Z" id="bd0-Fd-IU3"/>
+                                            <outlet property="commentLabel" destination="pU2-do-WHH" id="QVE-Oy-CHt"/>
+                                            <outlet property="imageView" destination="g7c-tB-J2M" id="JY7-ob-Blh"/>
+                                            <outlet property="imageViewHeightConstraint" destination="f3p-RC-7Az" id="FkK-hB-ytT"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="KqI-hz-KB3" id="mp4-sB-KNg"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RSk-2G-vls" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1zY-8h-Nxt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RSk-2G-vls" secondAttribute="bottom" id="LwX-gy-0cx"/>
+                            <constraint firstItem="RSk-2G-vls" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e7z-st-vJ7"/>
+                            <constraint firstAttribute="trailing" secondItem="RSk-2G-vls" secondAttribute="trailing" id="lcO-cq-NqW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="RSk-2G-vls" id="ZgW-ig-OgR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="KqI-hz-KB3" customClass="PinterestDataSource"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="359"/>
+        </scene>
+    </scenes>
+</document>

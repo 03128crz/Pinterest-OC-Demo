@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC11EC1C1D2640BC00FD25F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC1B1D2640BC00FD25F7 /* main.m */; };
+		AC11EC1F1D2640BC00FD25F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC1E1D2640BC00FD25F7 /* AppDelegate.m */; };
+		AC11EC221D2640BC00FD25F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC211D2640BC00FD25F7 /* ViewController.m */; };
+		AC11EC251D2640BC00FD25F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC11EC231D2640BC00FD25F7 /* Main.storyboard */; };
+		AC11EC271D2640BC00FD25F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11EC261D2640BC00FD25F7 /* Assets.xcassets */; };
+		AC11EC2A1D2640BC00FD25F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC11EC281D2640BC00FD25F7 /* LaunchScreen.storyboard */; };
+		AC11EC331D2640E100FD25F7 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC11EC311D2640E100FD25F7 /* Photos.plist */; };
+		AC11EC341D2640E100FD25F7 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11EC321D2640E100FD25F7 /* Photos.xcassets */; };
+		AC11EC371D26413900FD25F7 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC361D26413900FD25F7 /* Photo.m */; };
+		AC11EC3B1D2647EE00FD25F7 /* AnnotatedPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC3A1D2647EE00FD25F7 /* AnnotatedPhotoCell.m */; };
+		AC11EC3E1D26481100FD25F7 /* PinterestLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC3D1D26481100FD25F7 /* PinterestLayout.m */; };
+		AC11EC411D264D9B00FD25F7 /* PinterestDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC401D264D9B00FD25F7 /* PinterestDataSource.m */; };
+		AC11EC441D26508900FD25F7 /* PinterestLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11EC431D26508900FD25F7 /* PinterestLayoutAttributes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC11EC171D2640BC00FD25F7 /* Pinterest-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinterest-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC11EC1B1D2640BC00FD25F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC11EC1D1D2640BC00FD25F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC11EC1E1D2640BC00FD25F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC11EC201D2640BC00FD25F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC11EC211D2640BC00FD25F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC11EC241D2640BC00FD25F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC11EC261D2640BC00FD25F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC11EC291D2640BC00FD25F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC11EC2B1D2640BC00FD25F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC11EC311D2640E100FD25F7 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		AC11EC321D2640E100FD25F7 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		AC11EC351D26413900FD25F7 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		AC11EC361D26413900FD25F7 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		AC11EC391D2647EE00FD25F7 /* AnnotatedPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotatedPhotoCell.h; sourceTree = "<group>"; };
+		AC11EC3A1D2647EE00FD25F7 /* AnnotatedPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotatedPhotoCell.m; sourceTree = "<group>"; };
+		AC11EC3C1D26481100FD25F7 /* PinterestLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestLayout.h; sourceTree = "<group>"; };
+		AC11EC3D1D26481100FD25F7 /* PinterestLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestLayout.m; sourceTree = "<group>"; };
+		AC11EC3F1D264D9B00FD25F7 /* PinterestDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestDataSource.h; sourceTree = "<group>"; };
+		AC11EC401D264D9B00FD25F7 /* PinterestDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestDataSource.m; sourceTree = "<group>"; };
+		AC11EC421D26508900FD25F7 /* PinterestLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestLayoutAttributes.h; sourceTree = "<group>"; };
+		AC11EC431D26508900FD25F7 /* PinterestLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestLayoutAttributes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC11EC141D2640BC00FD25F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC11EC0E1D2640BC00FD25F7 = {
+			isa = PBXGroup;
+			children = (
+				AC11EC191D2640BC00FD25F7 /* Pinterest-OC */,
+				AC11EC181D2640BC00FD25F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC11EC181D2640BC00FD25F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC11EC171D2640BC00FD25F7 /* Pinterest-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC11EC191D2640BC00FD25F7 /* Pinterest-OC */ = {
+			isa = PBXGroup;
+			children = (
+				AC11EC231D2640BC00FD25F7 /* Main.storyboard */,
+				AC11EC201D2640BC00FD25F7 /* ViewController.h */,
+				AC11EC211D2640BC00FD25F7 /* ViewController.m */,
+				AC11EC351D26413900FD25F7 /* Photo.h */,
+				AC11EC361D26413900FD25F7 /* Photo.m */,
+				AC11EC391D2647EE00FD25F7 /* AnnotatedPhotoCell.h */,
+				AC11EC3A1D2647EE00FD25F7 /* AnnotatedPhotoCell.m */,
+				AC11EC3C1D26481100FD25F7 /* PinterestLayout.h */,
+				AC11EC3D1D26481100FD25F7 /* PinterestLayout.m */,
+				AC11EC3F1D264D9B00FD25F7 /* PinterestDataSource.h */,
+				AC11EC401D264D9B00FD25F7 /* PinterestDataSource.m */,
+				AC11EC421D26508900FD25F7 /* PinterestLayoutAttributes.h */,
+				AC11EC431D26508900FD25F7 /* PinterestLayoutAttributes.m */,
+				AC11EC1A1D2640BC00FD25F7 /* Supporting Files */,
+			);
+			path = "Pinterest-OC";
+			sourceTree = "<group>";
+		};
+		AC11EC1A1D2640BC00FD25F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC11EC311D2640E100FD25F7 /* Photos.plist */,
+				AC11EC321D2640E100FD25F7 /* Photos.xcassets */,
+				AC11EC261D2640BC00FD25F7 /* Assets.xcassets */,
+				AC11EC1D1D2640BC00FD25F7 /* AppDelegate.h */,
+				AC11EC1E1D2640BC00FD25F7 /* AppDelegate.m */,
+				AC11EC281D2640BC00FD25F7 /* LaunchScreen.storyboard */,
+				AC11EC2B1D2640BC00FD25F7 /* Info.plist */,
+				AC11EC1B1D2640BC00FD25F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC11EC161D2640BC00FD25F7 /* Pinterest-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC11EC2E1D2640BC00FD25F7 /* Build configuration list for PBXNativeTarget "Pinterest-OC" */;
+			buildPhases = (
+				AC11EC131D2640BC00FD25F7 /* Sources */,
+				AC11EC141D2640BC00FD25F7 /* Frameworks */,
+				AC11EC151D2640BC00FD25F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinterest-OC";
+			productName = "Pinterest-OC";
+			productReference = AC11EC171D2640BC00FD25F7 /* Pinterest-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC11EC0F1D2640BC00FD25F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kfvnx;
+				TargetAttributes = {
+					AC11EC161D2640BC00FD25F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC11EC121D2640BC00FD25F7 /* Build configuration list for PBXProject "Pinterest-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC11EC0E1D2640BC00FD25F7;
+			productRefGroup = AC11EC181D2640BC00FD25F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC11EC161D2640BC00FD25F7 /* Pinterest-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC11EC151D2640BC00FD25F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11EC2A1D2640BC00FD25F7 /* LaunchScreen.storyboard in Resources */,
+				AC11EC271D2640BC00FD25F7 /* Assets.xcassets in Resources */,
+				AC11EC251D2640BC00FD25F7 /* Main.storyboard in Resources */,
+				AC11EC341D2640E100FD25F7 /* Photos.xcassets in Resources */,
+				AC11EC331D2640E100FD25F7 /* Photos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC11EC131D2640BC00FD25F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11EC3B1D2647EE00FD25F7 /* AnnotatedPhotoCell.m in Sources */,
+				AC11EC441D26508900FD25F7 /* PinterestLayoutAttributes.m in Sources */,
+				AC11EC411D264D9B00FD25F7 /* PinterestDataSource.m in Sources */,
+				AC11EC371D26413900FD25F7 /* Photo.m in Sources */,
+				AC11EC3E1D26481100FD25F7 /* PinterestLayout.m in Sources */,
+				AC11EC221D2640BC00FD25F7 /* ViewController.m in Sources */,
+				AC11EC1F1D2640BC00FD25F7 /* AppDelegate.m in Sources */,
+				AC11EC1C1D2640BC00FD25F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC11EC231D2640BC00FD25F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC11EC241D2640BC00FD25F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC11EC281D2640BC00FD25F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC11EC291D2640BC00FD25F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC11EC2C1D2640BC00FD25F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC11EC2D1D2640BC00FD25F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC11EC2F1D2640BC00FD25F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pinterest-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.da-mai.Pinterest-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC11EC301D2640BC00FD25F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pinterest-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.da-mai.Pinterest-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC11EC121D2640BC00FD25F7 /* Build configuration list for PBXProject "Pinterest-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC11EC2C1D2640BC00FD25F7 /* Debug */,
+				AC11EC2D1D2640BC00FD25F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC11EC2E1D2640BC00FD25F7 /* Build configuration list for PBXNativeTarget "Pinterest-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC11EC2F1D2640BC00FD25F7 /* Debug */,
+				AC11EC301D2640BC00FD25F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC11EC0F1D2640BC00FD25F7 /* Project object */;
+}
